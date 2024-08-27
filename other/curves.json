@@ -211,6 +211,36 @@
       }
     },
     {
+      "name": "Curve448",
+      "category": "other",
+      "desc": "Curve from https://datatracker.ietf.org/doc/html/rfc7748",
+      "field": {
+        "type": "Prime",
+        "p": "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "bits": 448
+      },
+      "form": "Montgomery",
+      "params": {
+        "a": {
+          "raw": "0x262a6"
+        },
+        "b": {
+          "raw": "0x01"
+        }
+      },
+      "generator": {
+        "x": {
+          "raw": "0x05"
+        },
+        "y": {
+          "raw": "0x7d235d1295f5b1f66c98ab6e58326fcecbae5d34f55545d060f75dc28df3f6edb8027e2346430d211312c4b150677af76fd7223d457b5b1a"
+        }
+      },
+      "order": "0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffff7cca23e9c44edb49aed63690216cc2728dc58f552378c292ab5844f3",
+      "cofactor": "0x04",
+      "characteristics": {}
+    },
+    {
       "name": "Curve22103",
       "category": "other",
       "desc": "Curve from https://github.com/relic-toolkit/relic",
